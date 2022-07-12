@@ -4,9 +4,6 @@
             "path": "force-app",
             "default": true,
             "package": "Map Of Things",
-            "versionName": "ver 1.0",
-            "versionNumber": "1.0.0.NEXT",
-            "ancestorVersion": "HIGHEST",
             "postInstallScript": "PostInstaller",
             "apexTestAccess": {
                 "permissionSets": [
@@ -15,16 +12,6 @@
             }
         }
     ],
-    "name": "MapOfThings",
-    "namespace": "mapofthings",
     "sfdcLoginUrl": "https://login.salesforce.com",
-    "sourceApiVersion": "54.0",
-    "packageAliases": {
-        "Map Of Things": "0Ho5i000000PAwFCAW",
-        "Map Of Things@0.1.0-1": "04t5i000000goNCAAY",
-        "Map Of Things@0.2.0-1": "04t5i000000gqYEAAY",
-        "Map Of Things@0.2.1-1": "04t5i000000gqcbAAA",
-        "Map Of Things@0.2.2-1": "04t5i000000gqcgAAA",
-        "Map Of Things@1.0.0-1": "04t5i000000grRlAAI"
-    }
+    "sourceApiVersion": "54.0"
 }

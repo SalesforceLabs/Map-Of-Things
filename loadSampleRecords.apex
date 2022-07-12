@@ -1,0 +1,1 @@
+new PostInstaller().onInstall(null);
