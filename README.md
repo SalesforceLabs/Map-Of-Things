@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Set up enviroment. Follow the steps in the https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/
+1. Set up enviroment. Follow the steps in the [Trailhead - Quick Start Lightning Web Component](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/)
 
 2. Authenticate with your DevHub Org.
 ```
