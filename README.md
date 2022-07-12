@@ -1,5 +1,9 @@
 # Map Of Things - LWC
 
+## AppExchange
+
+This project is published as a free managed package in [AppExchange](https://appexchange.salesforce.com/appxListingDetail?listingId=a0N4V00000HZZiPUAX)
+
 ## Installation
 
 1. Set up enviroment. Follow the steps in the [Trailhead - Quick Start Lightning Web Component](https://trailhead.salesforce.com/content/learn/projects/quick-start-lightning-web-components/)
@@ -43,3 +47,7 @@ sfdx force:org:open -u map-of-things-scratch
 ```
 10. Click application launcher, select "Map Of Things" Application
 ![STEP10](step10.png)
+
+
+## License
+Map Of Things is available under the [MIT license](LICENSE.md)
