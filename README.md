@@ -42,3 +42,4 @@ sfdx force:apex:execute -u map-of-things-scratch -f loadSampleRecords.apex
 sfdx force:org:open -u map-of-things-scratch
 ```
 10. Click application launcher, select "Map Of Things" Application
+![STEP10](step10.png)
