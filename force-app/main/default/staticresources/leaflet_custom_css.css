@@ -1,0 +1,8 @@
+.leaflet-touch .leaflet-control-layers, .leaflet-touch .leaflet-bar {
+    border: 1px solid rgb(201,201,201)  !important;
+    color: rgb(116,116,116)  !important;
+}
+.leaflet-touch .leaflet-bar a {
+    color: rgb(116,116,116) !important;
+    font-weight: normal  !important;
+}

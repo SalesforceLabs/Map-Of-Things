@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CustomIconUrl1__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( Type__c , 
+&apos;Person&apos;, &apos;/img/icon/profile32.png&apos;, 
+&apos;Group&apos;, &apos;/img/icon/groups32.png&apos;, 
+&apos;Package&apos;, &apos;/img/content/deliver32.png&apos;, 
+&apos;Desk&apos;, &apos;/img/content/workspace32.png&apos;, 
+&apos;FlagGreen&apos;, &apos;/img/samples/flag_green.gif&apos;, 
+&apos;FlagRed&apos;, &apos;/img/samples/flag_red.gif&apos;, 
+&apos;FlagGoal&apos;, &apos;/img/rypple/32-goals.png&apos;, 
+&apos;Castle&apos;, &apos;/img/icon/custom51_100/castle32.png&apos;, 
+&apos;ShoppingCart&apos;, &apos;/img/icon/custom51_100/shoppingCart32.png&apos;, 
+&apos;Plane&apos;, &apos;/img/icon/plane32.png&apos;,
+&apos;Book&apos;, &apos;/img/knowledge/knowledge32.png&apos;, 
+&apos;/img/icon/address32.png&apos;)</formula>
+    <label>#1 Custom Icon Url</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

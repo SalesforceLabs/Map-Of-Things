@@ -1,0 +1,22 @@
+.map-container {
+    z-index: 1;
+    margin-top: -24px;
+    margin-bottom: -12px;
+    border-radius: 4px;
+    border: 1px solid rgb(201, 201, 201);
+}
+.my-custom-button {
+    display: none;
+}
+.my-custom-button[data-show="true"] {
+    display: block;
+    position: absolute;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    z-index: 2000;
+    pointer-events: auto;
+}
+
+.map-container .leaflet-control-layers {
+    border: 1px solid rgba(220,20,0,1);
+}

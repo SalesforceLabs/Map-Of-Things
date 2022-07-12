@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>54.0</apiVersion>
+    <isExposed>true</isExposed>
+    <masterLabel>Map Of Things</masterLabel>
+    <targets>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__AppPage, lightning__HomePage">
+            <property name="tileServerUrl" type="String" label="Tile Server URL" required="true" default="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+            <property name="tileServerAttribution" type="String" label="Tile Server Attribution" required="false" default="OpenStreetMap" />
+            <property name="mapSizeY" type="String" label="Height of Map" required="true" default="500px" />
+            <property name="mapDefaultZoomLevel" type="Integer" label="Initial Zoom Level" required="true" default="15" />
+            <property name="mapDefaultPositionLat" type="String" label="Initial Map Center - Latitude" required="true" default="37.790082" />
+            <property name="mapDefaultPositionLng" type="String" label="Initial Map Center - Longitude" required="true" default="-122.400213" />
+            <property name="targetObj" type="String" label="SObject API Name" required="true" default="mapofthings__SampleThings__c" />
+            <property name="targetLat" type="String" label="Field API Name for Latitude" required="true" default="mapofthings__Latitude__c" />
+            <property name="targetLng" type="String" label="Field API Name for Longitude" required="true" default="mapofthings__Longitude__c" />
+            <property name="targetExplain" type="String" label="Field API Name for Pop-up message" required="true" default="mapofthings__Popup__c" />
+            <property name="targetImg" type="String" label="Field API Name for Custom marker icon" required="false" />
+            <property name="targetGroup" type="String" label="Field API Name for Grouping" required="false" />
+            <property name="whereClause" type="String" label="WHERE Clause" required="false" />
+            <property name="iconSizeX" type="Integer" label="Width of Custom marker icon(px)" required="true" default="32" />
+            <property name="iconSizeY" type="Integer" label="Hieght of Custom marker icon(px)" required="true" default="32" />
+            <property name="markerRotate" type="Boolean" label="Dynamic rotation for custom marker icon" required="false" default="false" />
+            <property name="moveDuration" type="Integer" label="Marker transition duration(millisecond)" required="true" default="3000" />
+            <property name="autoFitBounds" type="Boolean" label="Fit bounds map on marker transition" required="false" default="true" />
+            <property name="markerZoomWithMap" type="Boolean" label="Adjust scale custom marker icon on map zoom" required="false" default="false" />
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>

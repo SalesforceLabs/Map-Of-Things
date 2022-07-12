@@ -1,0 +1,31 @@
+<template>
+    <lightning-card>
+        <!-- Leaflet Map -->
+        <c-map-of-things-map 
+            oninit={initedMap}
+            tile-server-url={tileServerUrl}
+            tile-server-attribution={tileServerAttribution}
+            map-default-position={mapDefaultPosition}
+            map-default-zoom-level={mapDefaultZoomLevel}
+            map-size-y={mapSizeY}
+            auto-fit-bounds={autoFitBounds}
+            markers={markers}
+        ></c-map-of-things-map>    
+        <!--/ Leaflet Map -->
+
+        <!-- Leaflet Marker Objects -->
+        <c-map-of-things-markers
+            map={map}
+            map-is-ready={mapIsReady}
+            markers={markers}
+            move-duration={moveDuration}
+            marker-rotate={normalizedMarkerRotate}
+            icon-size-x={iconSizeX}
+            icon-size-y={iconSizeY}
+            use-custom-marker={useCustomMarker}
+            use-grouping={useGrouping}
+            marker-zoom-with-map={markerZoomWithMap}
+        ></c-map-of-things-markers>
+        <!--/ Leaflet Marker Objects -->
+    </lightning-card>
+</template>
