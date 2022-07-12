@@ -59,27 +59,27 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
-                    <value>mapofthings__Type__c</value>
+                    <value>Type__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -166,7 +166,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;In order to let the records appear in the Map Of Things component, property settings below are required.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt; === Property Settings ===&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;SObject API Name&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;mapofthings__SampleThings__c&lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt; - Sample Things Object&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Latitude&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;mapofthings__Latitude__c &lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt;- Latitude&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Longitude&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;mapofthings__Longitude__c&lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt; - Longitude&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; = = = &lt;span style=&quot;color: rgb(116, 116, 116);&quot;&gt;= = = = = = =&lt;/span&gt; = = =&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(1, 68, 134);&quot;&gt;Change Data Capture&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;If the Change Data Capture is enabled on the SObject,&lt;/p&gt;&lt;p&gt;Once some record has been changed, created/updated/deleted, all the records will be re-queried then move to the latest location on the map.&lt;/p&gt;&lt;p&gt;Click &lt;a href=&quot;/lightning/setup/CdcObjectEnablement/home&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to confirm the Change Data Capture settings.&lt;/p&gt;</value>
+                    <value>&lt;p&gt;In order to let the records appear in the Map Of Things component, property settings below are required.&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;p&gt; === Property Settings ===&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;SObject API Name&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;SampleThings__c&lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt; - Sample Things Object&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Latitude&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;Latitude__c &lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt;- Latitude&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Longitude&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;em style=&quot;font-size: 14px;&quot;&gt;Longitude__c&lt;/em&gt;&lt;em style=&quot;font-size: 14px; color: rgb(201, 201, 201);&quot;&gt; - Longitude&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt; = = = &lt;span style=&quot;color: rgb(116, 116, 116);&quot;&gt;= = = = = = =&lt;/span&gt; = = =&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;&lt;strong style=&quot;font-size: 16px; color: rgb(1, 68, 134);&quot;&gt;Change Data Capture&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;p&gt;If the Change Data Capture is enabled on the SObject,&lt;/p&gt;&lt;p&gt;Once some record has been changed, created/updated/deleted, all the records will be re-queried then move to the latest location on the map.&lt;/p&gt;&lt;p&gt;Click &lt;a href=&quot;/lightning/setup/CdcObjectEnablement/home&quot; rel=&quot;noopener noreferrer&quot; target=&quot;_blank&quot;&gt;here&lt;/a&gt; to confirm the Change Data Capture settings.&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText13</identifier>
@@ -234,7 +234,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
@@ -244,15 +244,15 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -446,7 +446,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
@@ -456,15 +456,15 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -489,7 +489,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;&lt;strong&gt;Custom Marker&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/strong&gt;&lt;em style=&quot;font-size: 14px; color: rgb(68, 68, 68);&quot;&gt;mapofthings__CustomIconUrl1__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</value>
+                    <value>&lt;p&gt;&lt;strong&gt;Custom Marker&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;&lt;span class=&quot;ql-cursor&quot;&gt;﻿&lt;/span&gt;&lt;/strong&gt;&lt;em style=&quot;font-size: 14px; color: rgb(68, 68, 68);&quot;&gt;CustomIconUrl1__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText9</identifier>
@@ -539,26 +539,26 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -587,7 +587,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;mapofthings__CustomIconUrl2__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Let&apos;s test to edit Latitude and Longitude for some records on list editing in the list view below.&lt;/p&gt;&lt;p&gt;You will see not only moving to the locations, also they automatically rotate properly.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
+                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;CustomIconUrl2__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;Let&apos;s test to edit Latitude and Longitude for some records on list editing in the list view below.&lt;/p&gt;&lt;p&gt;You will see not only moving to the locations, also they automatically rotate properly.&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText2</identifier>
@@ -637,23 +637,23 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl2__c</value>
+                    <value>CustomIconUrl2__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -709,7 +709,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;p&gt;Only support with custom marker icon&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;mapofthings__CustomIconUrl1__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Adjust scale custom marker icon on map zoom&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;Checked&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
+                    <value>&lt;p&gt;Only support with custom marker icon&lt;/p&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Custom marker icon&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;CustomIconUrl1__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Adjust scale custom marker icon on map zoom&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;Checked&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText4</identifier>
@@ -759,26 +759,26 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -929,26 +929,26 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -977,7 +977,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Grouping&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;mapofthings__Type__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</value>
+                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;Field API Name for Grouping&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;Type__c&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText5</identifier>
@@ -1027,27 +1027,27 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
-                    <value>mapofthings__Type__c</value>
+                    <value>Type__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -1073,7 +1073,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>richTextValue</name>
-                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;WHERE Clause&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;mapofthings__Type__c = &apos;FlagGreen&apos;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
+                    <value>&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;WHERE Clause&lt;/strong&gt;&lt;ul&gt;&lt;li&gt;&lt;strong style=&quot;color: rgb(27, 150, 255);&quot;&gt;﻿&lt;/strong&gt;&lt;em style=&quot;color: rgb(68, 68, 68); font-size: 14px;&quot;&gt;Type__c = &apos;FlagGreen&apos;&lt;/em&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/li&gt;&lt;/ul&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
                 <identifier>flexipage_richText6</identifier>
@@ -1123,26 +1123,26 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetExplain</name>
-                    <value>mapofthings__Popup__c</value>
+                    <value>Popup__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetGroup</name>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetImg</name>
-                    <value>mapofthings__CustomIconUrl1__c</value>
+                    <value>CustomIconUrl1__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLat</name>
-                    <value>mapofthings__Latitude__c</value>
+                    <value>Latitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetLng</name>
-                    <value>mapofthings__Longitude__c</value>
+                    <value>Longitude__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>targetObj</name>
-                    <value>mapofthings__SampleThings__c</value>
+                    <value>SampleThings__c</value>
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>tileServerAttribution</name>
@@ -1154,7 +1154,7 @@
                 </componentInstanceProperties>
                 <componentInstanceProperties>
                     <name>whereClause</name>
-                    <value>mapofthings__Type__c = &apos;FlagGreen&apos;</value>
+                    <value>Type__c = &apos;FlagGreen&apos;</value>
                 </componentInstanceProperties>
                 <componentName>mapOfThings</componentName>
                 <identifier>mapofthings_mapOfThings</identifier>
