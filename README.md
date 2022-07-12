@@ -37,3 +37,8 @@ sfdx force:user:permset:assign -n Map_Of_Things_Manager -u map-of-things-scratch
 ```
 sfdx force:apex:execute -u map-of-things-scratch -f loadSampleRecords.apex
 ```
+9. Open scratch org
+```
+sfdx force:org:open -u map-of-things-scratch
+```
+10. Click application launcher, select "Map Of Things" Application
